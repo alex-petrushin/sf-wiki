@@ -40,6 +40,26 @@
 			font-size: 25px;
 		}
 
+		nav {
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		a {
+			font-size: 34px;
+			color: #000066;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+			color: #0000e6;
+		}
+
+		.red {
+			color: #822700;
+		}
+
 	</style>
 
 </head>
@@ -47,13 +67,22 @@
 
 	<div class="container">
 		<div class="logo">
-			<img src="HD-3.png" width="300px">
+			<img src="img/sf_gerb.png" width="300px">
 		</div>
 		<div class="headline">
-			<h1>СФ ВИКИ</h1>
+			<h1>
+				<hr style="color: #C4121A" class="red">
+			СФ ВИКИ
+				<hr style="color: #0060BD" class="blue">
+			</h1>
 		</div>
 		<div class="soon">
-			<h3>Здесь пока ничего нет. Зайдите попозже...</h3>
+			<nav>
+				<a href="https://alex-petrushin.github.io/sf-wiki/history">История</a>
+				<a href="#" class="red">География</a>
+				<a href="https://alex-petrushin.github.io/sf-wiki/person">Личности</a>
+				<a href="#" class="red">Политика</a>
+			</nav>
 		</div>
 	</div>
 
